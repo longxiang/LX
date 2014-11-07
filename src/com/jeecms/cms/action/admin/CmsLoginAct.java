@@ -25,7 +25,7 @@ public class CmsLoginAct {
 		Object error = request.getAttribute(DEFAULT_ERROR_KEY_ATTRIBUTE_NAME);
 		if (error != null) {
 			model.addAttribute("error", error);
-		}
+		} 
 		return "login";
 	}
 }
